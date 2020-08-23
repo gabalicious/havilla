@@ -13803,6 +13803,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 //
+//
+//
+//
+//
 var _default = {
   name: "app-footer",
   data: function data() {
@@ -13841,128 +13845,135 @@ exports.default = _default;
         "div",
         { staticClass: "row align-items-center justify-content-md-between" },
         [
-          _c("div", { staticClass: "col-md-3" }, [
+          _c("div", { staticClass: "col-md-3 col-sm-12" }, [
             _c("div", { staticClass: "copyright" }, [
               _vm._m(1),
               _vm._v(" "),
-              _c("span", { staticClass: "text-dark" }, [
-                _vm._v("All Rights Reserved © " + _vm._s(_vm.year))
+              _c("div", { staticClass: "text-white" }, [
+                _c("span", [
+                  _vm._v("All Rights Reserved © " + _vm._s(_vm.year))
+                ])
               ]),
               _vm._v(" "),
               _c("br"),
               _vm._v(" "),
-              _c("span", { staticClass: "text-dark" }, [
-                _vm._v("Powered by Gaba Digital")
-              ])
+              _vm._m(2)
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-md-9" }, [
-            _c("ul", { staticClass: "nav nav-footer justify-content-end" }, [
-              _c(
-                "li",
-                { staticClass: "nav-item" },
-                [
-                  _c(
-                    "router-link",
-                    {
-                      staticClass: "nav-link",
-                      attrs: {
-                        slot: "title",
-                        to: "/",
-                        href: "#",
-                        role: "button"
+          _c("div", { staticClass: "col-md-9 col-sm-12" }, [
+            _c(
+              "ul",
+              {
+                staticClass:
+                  "nav nav-footer d-flex justify-content-center justify-content-md-end"
+              },
+              [
+                _c(
+                  "li",
+                  { staticClass: "nav-item" },
+                  [
+                    _c(
+                      "router-link",
+                      {
+                        staticClass: "nav-link",
+                        attrs: {
+                          slot: "title",
+                          to: "/",
+                          href: "#",
+                          role: "button"
+                        },
+                        slot: "title"
                       },
-                      slot: "title"
-                    },
-                    [
-                      _c("span", { staticClass: "nav-link-inner--text" }, [
-                        _vm._v("Home")
-                      ])
-                    ]
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "li",
-                { staticClass: "nav-item" },
-                [
-                  _c(
-                    "router-link",
-                    {
-                      staticClass: "nav-link",
-                      attrs: {
-                        slot: "title",
-                        to: "/aboutus",
-                        href: "#",
-                        role: "button"
+                      [
+                        _c("span", { staticClass: "nav-link-inner--text" }, [
+                          _vm._v("Home")
+                        ])
+                      ]
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "li",
+                  { staticClass: "nav-item" },
+                  [
+                    _c(
+                      "router-link",
+                      {
+                        staticClass: "nav-link",
+                        attrs: {
+                          slot: "title",
+                          to: "/aboutus",
+                          href: "#",
+                          role: "button"
+                        },
+                        slot: "title"
                       },
-                      slot: "title"
-                    },
-                    [
-                      _c("span", { staticClass: "nav-link-inner--text" }, [
-                        _vm._v("About Us")
-                      ])
-                    ]
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "li",
-                { staticClass: "nav-item" },
-                [
-                  _c(
-                    "router-link",
-                    {
-                      staticClass: "nav-link",
-                      attrs: {
-                        slot: "title",
-                        to: "/contactus",
-                        href: "#",
-                        role: "button"
+                      [
+                        _c("span", { staticClass: "nav-link-inner--text" }, [
+                          _vm._v("About Us")
+                        ])
+                      ]
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "li",
+                  { staticClass: "nav-item" },
+                  [
+                    _c(
+                      "router-link",
+                      {
+                        staticClass: "nav-link",
+                        attrs: {
+                          slot: "title",
+                          to: "/contactus",
+                          href: "#",
+                          role: "button"
+                        },
+                        slot: "title"
                       },
-                      slot: "title"
-                    },
-                    [
-                      _c("span", { staticClass: "nav-link-inner--text" }, [
-                        _vm._v("Contact Us")
-                      ])
-                    ]
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "li",
-                { staticClass: "nav-item" },
-                [
-                  _c(
-                    "router-link",
-                    {
-                      staticClass: "nav-link",
-                      attrs: {
-                        slot: "title",
-                        to: "/order",
-                        href: "#",
-                        role: "button"
+                      [
+                        _c("span", { staticClass: "nav-link-inner--text" }, [
+                          _vm._v("Contact Us")
+                        ])
+                      ]
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "li",
+                  { staticClass: "nav-item" },
+                  [
+                    _c(
+                      "router-link",
+                      {
+                        staticClass: "nav-link",
+                        attrs: {
+                          slot: "title",
+                          to: "/order",
+                          href: "#",
+                          role: "button"
+                        },
+                        slot: "title"
                       },
-                      slot: "title"
-                    },
-                    [
-                      _c("span", { staticClass: "nav-link-inner--text" }, [
-                        _vm._v("Order Online")
-                      ])
-                    ]
-                  )
-                ],
-                1
-              )
-            ])
+                      [
+                        _c("span", { staticClass: "nav-link-inner--text" }, [
+                          _vm._v("Order Online")
+                        ])
+                      ]
+                    )
+                  ],
+                  1
+                )
+              ]
+            )
           ])
         ]
       )
@@ -13975,7 +13986,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row row-grid align-items-center my-md" }, [
-      _c("div", { staticClass: "col-lg-6 footer-reposittion" }, [
+      _c("div", { staticClass: "col-lg-6 footer-reposition" }, [
         _c("h5", { staticClass: "text-warning font-weight-light mb-2" }, [
           _vm._v("Thank you for supporting us during these tough times!")
         ]),
@@ -14029,6 +14040,14 @@ var staticRenderFns = [
       { attrs: { href: "#", target: "_blank", rel: "noopener" } },
       [_c("img", { attrs: { src: "/logo1.090c442b.svg" } })]
     )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "text-white" }, [
+      _c("span", [_vm._v("Powered by Gaba Digital")])
+    ])
   }
 ]
 render._withStripped = true
@@ -14672,6 +14691,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 //
+//
+//
 var _default = {
   name: "home",
   components: {
@@ -14719,25 +14740,19 @@ exports.default = _default;
         _c("section", { staticClass: "background" }, [
           _c("div", { staticClass: "flex-center" }, [
             _c("img", {
-              attrs: {
-                src: "/logo4.5ab23402.svg",
-                height: "400",
-                width: "400",
-                alt: ""
-              }
+              attrs: { src: "/logo4.5ab23402.svg", alt: "" }
             }),
             _vm._v(" "),
-            _c("p", { staticClass: "slogan" }, [
-              _vm._v("A FAMILY FRIENDLY ITALIAN RESTAURANT")
-            ]),
+            _vm._m(0),
             _vm._v(" "),
             _c(
               "div",
+              { staticClass: "d-flex" },
               [
                 _c(
                   "router-link",
                   {
-                    staticClass: "btn btn-danger",
+                    staticClass: "btn btn-danger btn-fix-pos",
                     attrs: {
                       slot: "title",
                       to: "/order",
@@ -14762,7 +14777,22 @@ exports.default = _default;
     1
   )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "d-flex d-flex-100 justify-content-center" },
+      [
+        _c("p", { staticClass: "slogan" }, [
+          _vm._v("A FAMILY FRIENDLY ITALIAN RESTAURANT")
+        ])
+      ]
+    )
+  }
+]
 render._withStripped = true
 
           return {
@@ -79416,7 +79446,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49859" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53342" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
