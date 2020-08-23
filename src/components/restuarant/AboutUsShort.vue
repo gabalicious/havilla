@@ -34,9 +34,9 @@
 import Vue from "vue";
 import IMG from "/img/background2-sm.jpg";
 export default Vue.component("aboutus-short", {
-  data: function() {
+  data: function () {
     return { IMG };
-  }
+  },
 });
 </script>
 <style lang="scss" scoped>
@@ -47,7 +47,10 @@ export default Vue.component("aboutus-short", {
   padding-top: 0;
 }
 img {
-  max-width: -webkit-fill-available;
+  max-width: 100%;
+  max-width: -moz-available; /* WebKit-based browsers will ignore this. */
+  max-width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+  max-width: fill-available;
   border-radius: 25px;
 }
 .row-grid {

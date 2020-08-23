@@ -97,9 +97,9 @@
 <script>
 import Vue from "vue";
 export default Vue.component("testimonials", {
-  data: function() {
+  data: function () {
     return { rating: 4.5 };
-  }
+  },
 });
 </script>
 <style lang="scss" scoped>
@@ -131,7 +131,10 @@ h1 {
   text-align: center;
 }
 img {
-  max-width: -webkit-fill-available;
+  max-width: 100%;
+  max-width: -moz-available; /* WebKit-based browsers will ignore this. */
+  max-width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+  max-width: fill-available;
   border-radius: 50%;
 }
 </style>

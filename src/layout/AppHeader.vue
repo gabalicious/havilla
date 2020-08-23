@@ -163,9 +163,24 @@ export default {
   components: {
     BaseNav,
     CloseButton,
-    BaseDropdown
-  }
+    BaseDropdown,
+  },
 };
 </script>
 <style>
+a.active > img {
+  border-bottom: solid #36e2f57e;
+}
+a.active > span {
+  border-bottom: solid #f5365c7e;
+}
+
+a.active > * {
+  color: white;
+  font-weight: 400;
+}
+
+a:not(.active) > * {
+  border-bottom: solid transparent;
+}
 </style>

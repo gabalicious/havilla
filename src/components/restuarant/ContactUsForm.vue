@@ -49,7 +49,10 @@ export default Vue.component("contactus-form", {});
 </script>
 <style lang="scss" scoped>
 img {
-  max-width: -webkit-fill-available;
+  max-width: 100%;
+  max-width: -moz-available; /* WebKit-based browsers will ignore this. */
+  max-width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+  max-width: fill-available;
 }
 .row {
   display: flex;
