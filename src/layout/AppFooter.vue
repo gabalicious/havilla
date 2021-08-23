@@ -4,7 +4,7 @@
       <div class="row row-grid align-items-center my-md">
         <div class="col-lg-6 footer-reposition">
           <h5
-            class="text-warning font-weight-light mb-2"
+            class="text-danger font-weight-light mb-2"
           >Thank you for supporting us during these tough times!</h5>
           <h6
             class="text-dark mb-0 font-weight-light"
@@ -120,8 +120,18 @@ export default {
 footer {
   padding: 2.5em 0;
   background: linear-gradient(rgb(233, 82, 95), rgb(128, 10, 41));
+  .text-white,
   a {
-    color: white;
+    text-shadow: 2px 2px 4px black;
+  }
+  .text-danger {
+    font-weight: 800 !important;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  }
+  a.nav-link:hover span,
+  .active span {
+    color: white !important;
+    text-shadow: 2px 2px 10px white;
   }
   i {
     color: white;

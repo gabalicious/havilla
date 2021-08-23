@@ -137,4 +137,8 @@ img {
   max-width: fill-available;
   border-radius: 50%;
 }
+.lead {
+  font-weight: 400;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
 </style>

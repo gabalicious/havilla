@@ -8,8 +8,9 @@
               <card class="border-0" shadow body-classes="py-5">
                 <h6 class="text-dark text-uppercase">Contact Us</h6>
                 <p class="description mt-3">
-                  Argon is a great free UI package based on Bootstrap 4
-                  that includes the most important components and features.
+                  HaVilla is a familiy owned and operated Italian restaurant
+                  based out of Fort Lauderdale. We've been serving customers for
+                  over 3 decades.
                 </p>
                 <form>
                   <base-input placeholder="Name"></base-input>
@@ -33,7 +34,9 @@
               <card class="border-0" shadow body-classes="py-5">
                 <h6 class="text-dark text-uppercase">Info</h6>
                 <p class="description mt-3">Phone number: +1-555-123-4567</p>
-                <p class="description mt-3">Address: 123 All Right DR. Brooklyn, NY 11234</p>
+                <p class="description mt-3">
+                  Address: 123 All Right DR. Brooklyn, NY 11234
+                </p>
                 <img src="/img/maps-placeholder.png" alt />
               </card>
             </div>
