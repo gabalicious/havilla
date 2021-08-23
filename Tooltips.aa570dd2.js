@@ -180,14 +180,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $a4ba59 = exports.default || module.exports;
+        var $0a7ee0 = exports.default || module.exports;
       
-      if (typeof $a4ba59 === 'function') {
-        $a4ba59 = $a4ba59.options;
+      if (typeof $0a7ee0 === 'function') {
+        $0a7ee0 = $0a7ee0.options;
       }
     
         /* template */
-        Object.assign($a4ba59, (function () {
+        Object.assign($0a7ee0, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -399,9 +399,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$a4ba59', $a4ba59);
+            api.createRecord('$0a7ee0', $0a7ee0);
           } else {
-            api.reload('$a4ba59', $a4ba59);
+            api.reload('$0a7ee0', $0a7ee0);
           }
         }
 
@@ -436,7 +436,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53342" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62658" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
